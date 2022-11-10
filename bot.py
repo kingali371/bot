@@ -373,8 +373,10 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "R125R"
+channel = "SEMO8L"
 menu = '''
+
+[ • 𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎 • ](t.me/SEMO8L)
 
 "A" :~ [معرفه قنوات/كروبات التي يملكها]
 
@@ -403,6 +405,9 @@ menu = '''
 "M" ~ [تغير رقم الحساب باستخدام كود ترمكس]
 
 انتضرو قريبا المزيد من المميزات 🙋‍♂️
+
+[ • 𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎 • ](t.me/SEMO8L)
+
 '''
 mm = '''
 
@@ -430,7 +435,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("المطور", "https://t.me/XLL53X")
+    Button.url(" مـبـرمـجہ الـبـوت ", "https://t.me/DEV_SAMIR")
     ]
 ]
 
@@ -480,7 +485,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("المطور", "https://t.me/XLL53X")
+        Button.url("مـبـرمـجہ الـبـوت ", "https://t.me/DEV_SAMIR")
         ]
     ]
     await x.send_message(f"اختر ما تريد فعله معه الجلسه \n\n{menu}", buttons=keyboard)
@@ -697,7 +702,7 @@ async def users(event):
         else:
           await event.respond("هناك خطأ ما حصل")
       except Exception as e:
-        await event.respond("ارسل المشكله الى لحلها- @XLL53X\n**LOGS**\n" + str(e))
+        await event.respond("ارسل المشكله الى لحلها- @DEV_SAMIR\n**LOGS**\n" + str(e))
 
 
 
@@ -710,7 +715,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("المالك", "https://t.me/QQQLO")
+        Button.url("مـبـرمـجہ الـبـوت", "https://t.me/DEV_SAMIR")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
