@@ -375,7 +375,7 @@ logging.basicConfig(level=logging.WARNING)
 
 channel = "SEMO8L"
 menu = '''
-- [ • 𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎 • ](t.me/SEMO8L) -
+- [ • 𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎 • ](t.me/FTTUTY) -
 
 - "A" :~ 👇
 
@@ -431,7 +431,7 @@ menu = '''
 
 - انتضرو قريبا المزيد من المميزات سيمو  🙋‍♂️
 
-- قـنـاة الـسـورس @SEMO8L 🔥
+- قـنـاة الـسـورس @FTTUTY 🔥
 
 - مـبـرمـجہ آلـسـورس @DEV_SAMIR 🔥
 
